@@ -1,7 +1,7 @@
 # Teamcity Agents
 
-This repo contains docker images for supporting teamcity agents with
-the following technologies:
+This repo contains docker images of teamcity agents with the following
+technologies:
 
 * nodejs
 * dotnet core
