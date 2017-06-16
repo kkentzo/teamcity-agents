@@ -12,4 +12,4 @@ RUN apt-get update \
 
 ENV GOROOT=/usr/local/go
 ENV GOPATH=/home/buildagent
-RUN echo "export PATH=/usr/local/go/bin:$PATH" >> /home/buildagent/.bashrc
+ENV PATH="/usr/local/go/bin:$PATH"
